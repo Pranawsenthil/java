@@ -1,0 +1,11 @@
+class shop
+{
+    public static void main (String[] args) 
+    {
+        int tomato=2;
+        int weigh_machine=0;
+        weigh_machine=tomato;
+        System.out.println("weigh_machine ="+weigh_machine);
+    }
+
+}
