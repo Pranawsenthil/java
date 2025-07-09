@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args)
+	{
+		String name,street,city,country;
+		name="Pranaw";
+		street="anna salai";
+		city="chennai";
+		country="India";
+		System.out.println("Name ="+name+"\n"+"Street ="+street+"\n"+"city ="+city+"\n"+"country ="+country+"\n");
+	}
+}
