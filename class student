@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class student
+{
+	public static void main(String[] args) {
+		String name,branch;
+		Scanner obj=new Scanner(System.in);
+		System.out.print("Enter your name :");
+		name=obj.nextLine();
+		System.out.println("Enter your branch:");
+		branch=obj.nextLine();
+		int roll;
+		System.out.println("Enter your roolno:");
+		roll=obj.nextInt();
+		System.out.println("name :"+name+"\n"+"branch :"+branch+"\n"+"Roll no:"+roll+"\n");
+	}
+}
